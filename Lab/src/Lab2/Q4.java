@@ -3,7 +3,7 @@ package Lab2;
 import java.util.Scanner;
 
 public class Q4 {
-	public static void main (String[]args) {
+	public static void main (String [] args) {
 		Scanner sc = new Scanner (System.in);
 		
 		double weight, height, BMI;
@@ -16,7 +16,7 @@ public class Q4 {
 		
 		BMI = weight / (Math.pow(height, 2));
 		
-		System.out.print("BMI: " + BMI);
+		System.out.print("BMI: " + Math.round(BMI));
 		
 	}
 }
